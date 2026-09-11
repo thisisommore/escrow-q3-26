@@ -37,3 +37,6 @@ This completes the escrow process.
 
 Tests are inside tests folder and using SVMLite
 Run `anchor test` to test.
+
+<img width="1059" height="973" alt="Screenshot 2026-09-11 at 12 02 53 PM" src="https://github.com/user-attachments/assets/47af03e9-a473-4c53-8fa1-8240def2ed19" />
+
