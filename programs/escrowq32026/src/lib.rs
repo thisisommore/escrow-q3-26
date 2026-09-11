@@ -44,9 +44,9 @@ pub mod escrowq32026 {
 
     #[instruction(discriminator = 4)]
     pub fn take(ctx: Context<Take>) -> Result<()> {
-        ctx.accounts.push();
-        ctx.accounts.pull();
-        ctx.accounts.close();
+        ctx.accounts.push()?;
+        ctx.accounts.pull()?;
+        ctx.accounts.close()?;
         Ok(())
     }
 
